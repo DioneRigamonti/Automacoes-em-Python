@@ -50,7 +50,7 @@ option.add_argument("disable-dev-shm-usage")
 option.add_argument("--disable-browser-side-navigation")
 option.add_argument("--disable-features=VizDisplayCompositor")
 option.add_experimental_option("prefs",{"download.default_directory":f'{caminho_incoming}'}) # importante para fazer o download para uma pasta especifica
-option.add_argument("--headless") #segundo plano
+option.add_argument("--headless=new") #segundo plano
 
 # - - - Inicio do Processo - - - #
 
