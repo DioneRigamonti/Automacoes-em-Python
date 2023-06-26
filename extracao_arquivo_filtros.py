@@ -26,6 +26,9 @@ mes = data.month
 ano = data.year
 hora = data.hour
 minuto = data.minute
+dia_string = dt.datetime.now().strftime('%d')
+mes_string = dt.datetime.now().strftime('%m')
+ano_string = dt.datetime.now().strftime('%y') # 2 digitos
 
 # - - - Caminho - - - #
 
